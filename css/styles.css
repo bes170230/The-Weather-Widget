@@ -1,0 +1,66 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/5c/f1/da/5cf1da7876b881b1a1ace1c6482c8ab1.png');
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: lightgray;
+    color: black;
+    width: 100%;
+    max-width: 450px;
+    margin: 5% 0;
+    padding: 35px;
+    opacity: 0.9;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.feels_like {
+    margin-top: 25px;
+}
+
+h1{
+    color: darkred;
+    font-size: 40px;
+}
+
+.high {
+    background: white;
+    margin-top: 20px;
+}
+
+.humidity {
+    background: white;
+}
+
+.low {
+    background: white;
+}
+
+.search{
+    display: flex;
+}
+
+.search-bar {
+    background: darkred;
+    color: white;
+    font-size: 20px;
+}
+
+.search button{
+    color: white;
+    background: darkred;
+}
+
+.status {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
